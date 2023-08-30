@@ -1,0 +1,294 @@
+[
+  {
+    "test_series": [
+      {
+        "id": "54cabe18-bf08-4ac0-8673-d7f2ea3efe21",
+        "name": "Math Test Series",
+        "description": "Test series for math subject",
+        "start_date": "2023-08-30T09:30:19.428Z",
+        "end_date": "2023-08-29T20:44:28.561Z",
+        "created_at": "2023-08-30T00:25:57.477Z",
+        "updated_at": "2023-08-29T21:50:11.435Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a603645-e4a3-4a7a-b740-a936ea9775d9",
+        "name": "Science Test Series",
+        "description": "Test series for science subject",
+        "start_date": "2023-08-29T14:50:47.222Z",
+        "end_date": "2023-08-29T21:42:22.146Z",
+        "created_at": "2023-08-29T17:36:53.996Z",
+        "updated_at": "2023-08-30T11:32:40.826Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12765c6a-4481-4b7d-b9a6-a51e31136303",
+        "name": "English Test Series",
+        "description": "Test series for English subject",
+        "start_date": "2023-08-30T07:35:41.622Z",
+        "end_date": "2023-08-30T02:23:12.548Z",
+        "created_at": "2023-08-30T06:28:28.100Z",
+        "updated_at": "2023-08-29T21:03:40.101Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c327707-3a4a-4113-b4a7-645c42fc485c",
+        "name": "History Test Series",
+        "description": "Test series for history subject",
+        "start_date": "2023-08-29T15:32:39.697Z",
+        "end_date": "2023-08-30T00:28:49.843Z",
+        "created_at": "2023-08-29T19:09:13.212Z",
+        "updated_at": "2023-08-30T07:48:47.125Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d271b845-8d48-45c0-aafb-b48b51e3a957",
+        "name": "Geography Test Series",
+        "description": "Test series for geography subject",
+        "start_date": "2023-08-30T02:33:18.246Z",
+        "end_date": "2023-08-30T08:28:18.958Z",
+        "created_at": "2023-08-30T07:04:52.302Z",
+        "updated_at": "2023-08-29T21:35:51.468Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "subjective_question": [
+      {
+        "id": "39760599-cb3f-4412-ab5c-d9c8961c8548",
+        "question": "What is the capital of France?",
+        "answer": "Paris",
+        "subject": "Geography",
+        "book": "World Atlas",
+        "chapter": "Countries and Capitals",
+        "created_at": "2023-08-29T21:06:20.183Z",
+        "updated_at": "2023-08-29T19:04:51.826Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "486b2fe5-70af-43e6-8c52-7cb6221437bc",
+        "question": "Who painted the Mona Lisa?",
+        "answer": "Leonardo da Vinci",
+        "subject": "Art",
+        "book": "Art History",
+        "chapter": "Famous Paintings",
+        "created_at": "2023-08-30T12:53:58.223Z",
+        "updated_at": "2023-08-30T11:19:50.968Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bfe4b86-eee9-4a72-96f4-eaffc47a367b",
+        "question": "What is the square root of 64?",
+        "answer": "8",
+        "subject": "Mathematics",
+        "book": "Mathematics Textbook",
+        "chapter": "Algebra",
+        "created_at": "2023-08-30T06:05:19.826Z",
+        "updated_at": "2023-08-29T21:27:47.770Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "424974f4-7bcf-43fb-ae2f-1b572cea3399",
+        "question": "What is the chemical formula of water?",
+        "answer": "H2O",
+        "subject": "Chemistry",
+        "book": "Chemistry Textbook",
+        "chapter": "Chemical Reactions",
+        "created_at": "2023-08-30T07:05:50.721Z",
+        "updated_at": "2023-08-30T07:04:47.383Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cce115f1-9c3a-4af1-abb7-e01f14d493fb",
+        "question": "What is the national animal of India?",
+        "answer": "Tiger",
+        "subject": "Biology",
+        "book": "Biology Textbook",
+        "chapter": "Animal Kingdom",
+        "created_at": "2023-08-30T06:40:41.919Z",
+        "updated_at": "2023-08-29T21:45:24.400Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "mcq": [
+      {
+        "id": "4c835d84-baeb-41fd-a9a8-6747d3fd6929",
+        "question": "What is the capital of Australia?",
+        "option_a": "Canberra",
+        "option_b": "Sydney",
+        "option_c": "Melbourne",
+        "option_d": "Perth",
+        "answer": "Canberra",
+        "subject": "Geography",
+        "book": "World Atlas",
+        "chapter": "Countries and Capitals",
+        "created_at": "2023-08-30T08:03:40.665Z",
+        "updated_at": "2023-08-30T04:02:01.379Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b24b142c-bb28-4068-834f-a1e7148416ed",
+        "question": "Who wrote the play Romeo and Juliet?",
+        "option_a": "William Shakespeare",
+        "option_b": "George Bernard Shaw",
+        "option_c": "Oscar Wilde",
+        "option_d": "Christopher Marlowe",
+        "answer": "William Shakespeare",
+        "subject": "Literature",
+        "book": "English Literature",
+        "chapter": "Shakespearean Plays",
+        "created_at": "2023-08-30T05:07:30.293Z",
+        "updated_at": "2023-08-30T05:28:28.046Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82ffdbf9-1755-4ea3-aa56-b3407b9fd782",
+        "question": "What is the atomic number of carbon?",
+        "option_a": "6",
+        "option_b": "7",
+        "option_c": "8",
+        "option_d": "9",
+        "answer": "6",
+        "subject": "Chemistry",
+        "book": "Chemistry Textbook",
+        "chapter": "Periodic Table",
+        "created_at": "2023-08-29T23:33:06.376Z",
+        "updated_at": "2023-08-29T23:10:55.078Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5c67248-e93b-4d76-ac15-520a5a02cc33",
+        "question": "What is the chemical formula of sodium chloride?",
+        "option_a": "NaCl",
+        "option_b": "HCl",
+        "option_c": "H2O",
+        "option_d": "CO2",
+        "answer": "NaCl",
+        "subject": "Chemistry",
+        "book": "Chemistry Textbook",
+        "chapter": "Chemical Compounds",
+        "created_at": "2023-08-30T07:23:48.571Z",
+        "updated_at": "2023-08-30T01:40:46.679Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "face7583-527f-4f57-8533-16640de46dd5",
+        "question": "What is the largest planet in our solar system?",
+        "option_a": "Jupiter",
+        "option_b": "Saturn",
+        "option_c": "Mars",
+        "option_d": "Venus",
+        "answer": "Jupiter",
+        "subject": "Astronomy",
+        "book": "Astronomy Textbook",
+        "chapter": "Planets and Moons",
+        "created_at": "2023-08-30T00:38:01.396Z",
+        "updated_at": "2023-08-30T09:05:31.794Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "current_affairs": [
+      {
+        "id": "0269a613-2c38-49a0-8e21-b7f8652191f1",
+        "title": "COVID-19 Vaccination Drive Begins",
+        "content": "The vaccination drive against COVID-19 has started in several countries.",
+        "paper": "Newspaper A",
+        "subject": "Health",
+        "topic": "COVID-19",
+        "created_at": "2023-08-29T13:49:31.761Z",
+        "updated_at": "2023-08-29T16:36:24.880Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "925a5195-d3b2-4fd2-b1af-b0129eb00208",
+        "title": "New Discovery in Space Exploration",
+        "content": "Scientists have made a significant discovery in the field of space exploration.",
+        "paper": "Newspaper B",
+        "subject": "Science",
+        "topic": "Space Exploration",
+        "created_at": "2023-08-29T15:03:15.627Z",
+        "updated_at": "2023-08-29T14:06:03.083Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "375727a9-cc68-4841-b93b-0bf97dd960cb",
+        "title": "World Leaders Gather for Climate Summit",
+        "content": "Leaders from around the world are attending a summit to discuss climate change.",
+        "paper": "Newspaper C",
+        "subject": "Environment",
+        "topic": "Climate Change",
+        "created_at": "2023-08-29T16:47:55.405Z",
+        "updated_at": "2023-08-29T14:11:39.395Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "909f309c-af47-4b9c-b133-a7101a682313",
+        "title": "Breakthrough in Renewable Energy Technology",
+        "content": "Researchers have achieved a major breakthrough in renewable energy technology.",
+        "paper": "Newspaper D",
+        "subject": "Technology",
+        "topic": "Renewable Energy",
+        "created_at": "2023-08-30T03:49:42.694Z",
+        "updated_at": "2023-08-29T13:52:52.677Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de7b8154-6faa-44ec-80a6-342c1a9debfa",
+        "title": "Sports Event Draws Millions of Viewers",
+        "content": "A popular sports event attracted millions of viewers worldwide.",
+        "paper": "Newspaper E",
+        "subject": "Sports",
+        "topic": "Sports",
+        "created_at": "2023-08-29T16:36:27.215Z",
+        "updated_at": "2023-08-30T05:20:20.449Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d59338b4-1b6e-4520-8c2e-8039434eedec",
+        "email": "Remington.Hagenes@yahoo.com",
+        "firstName": "Trace",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30015244",
+        "tenantId": null
+      },
+      {
+        "reference": "9a449943-1f4a-4975-8d0f-f05e18e33f61",
+        "email": "Dagmar89@gmail.com",
+        "firstName": "Dimitri",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/637.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c2f74ff7-a601-4923-9122-c60bde44cec8",
+        "email": "Roberto.Ullrich-Donnelly10@gmail.com",
+        "firstName": "Olaf",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91487701",
+        "tenantId": null
+      },
+      {
+        "reference": "dc9ffc96-5c6d-4f4d-8683-11793779326a",
+        "email": "Dagmar_Greenfelder86@hotmail.com",
+        "firstName": "Tressa",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33769194",
+        "tenantId": null
+      },
+      {
+        "reference": "52baaad4-8791-4efb-adb8-d1178a6763c6",
+        "email": "Yvette_Swaniawski98@yahoo.com",
+        "firstName": "Randall",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58057038",
+        "tenantId": null
+      }
+    ]
+  }
+]
